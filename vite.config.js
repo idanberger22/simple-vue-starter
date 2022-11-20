@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  base:'./vue-basic-table/',
+  base:'./vue-table/',
   plugins: [vue()],
   resolve: {
     alias: {
